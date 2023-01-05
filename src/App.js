@@ -66,5 +66,4 @@ function Example() {
   );
 }
 
-render(<Example />);
 export default App;
