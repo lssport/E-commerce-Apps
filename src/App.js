@@ -25,9 +25,13 @@ useState ([
    }  
  ]);
    return (
+     <div>
+       <h1>E-commerce Apps</h1>
+       <span>marketplace in-net</span>
      <Home>
        <ProductList products={products} />
       </Home>
+      </div>
    );
 }
 export default App;
