@@ -28,8 +28,9 @@ useState ([
  ]);
    return (
      <div>
-       <h1>E-commerce Apps</h1>
-       <span>marketplace in-net</span>
+       <h1 className='fw-bold'>E-commerce Apps</h1>
+       <hr className='w-75 mx-auto' />
+       <span className='d-flex'>marketplace in-net</span>
      <Home>
        <ProductList products={products} />
       </Home>
