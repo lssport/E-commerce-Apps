@@ -7,21 +7,21 @@ function App() {
 useState ([
    {
     id: 1,
-    name: "Product 1", 
+    name: 'Product 1', 
     price: 9.99,
-    description: "This is Product 1"
+    description: 'This is Product 1'
    }, 
    {
      id: 2,
-     name: "Product 2", 
+     name: 'Product 2', 
      price: 14.99,
-     description: "This is Product 2"
+     description: 'This is Product 2'
    }, 
    {
      id: 3,
-     name: "Product 3", 
+     name: 'Product 3', 
      price: 19.99,
-     description: "This is Product 3"
+     description: 'This is Product 3'
    }  
  ]);
    return (
@@ -93,7 +93,7 @@ useState ([
       </div>
       </div> 
 </>
-  );
+  )
 }
 
 
