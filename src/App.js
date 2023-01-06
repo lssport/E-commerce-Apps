@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ProductList } from './components/ProductList';
-import { Home } from './pages/Home';'
+import { Home } from './pages/Home';
 
 function App() {
     const [products] =
