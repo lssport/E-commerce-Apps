@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
 import { ProductList } from './components/ProductList';
 import { Home } from './pages/Home';
-import { Fee } from './components/Fee';
 
 function App() {
-    const [products] =
+    const [product] =
 useState ([
    {
     id: 1,
@@ -30,7 +29,7 @@ useState ([
        <h1>E-commerce Apps</h1>
        <span className='title-md'>Marketplace in-net</span>
       <Home>
-       <ProductList products={products} />
+       <ProductList product={product} />
       </Home>
       </div>
   );

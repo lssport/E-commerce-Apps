@@ -1,5 +1,6 @@
 import React from 'react';
 import { Product } from './Product';
+import { Fee } from './Fee';
 
 export const ProductList =
 ({ product }) => {
