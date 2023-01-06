@@ -1,34 +1,31 @@
 import React, { useState } from 'react';
 import { ProductList } from './components/ProductList';
-import { Home } from './pages/Home';
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
+import { Home } from './pages/Home';'
 
 function App() {
     const [products] =
 useState ([
    {
     id: 1,
-    name: 'Product 1', 
+    name: "Product 1", 
     price: 9.99,
-    description: 'This is Product 1'
+    description: "This is Product 1"
    }, 
    {
      id: 2,
-     name: 'Product 2', 
+     name: "Product 2", 
      price: 14.99,
-     description: 'This is Product 2'
+     description: "This is Product 2"
    }, 
    {
      id: 3,
-     name: 'Product 3', 
+     name: "Product 3", 
      price: 19.99,
-     description: 'This is Product 3'
+     description: "This is Product 3"
    }  
  ]);
    return (
     <>
-<>
     <div className='container py-5'>
       <div className='row'>
         <div className='col-12 text-center'>
@@ -96,8 +93,7 @@ useState ([
       </div>
       </div> 
 </>
-  )
-}
+  );
 }
 
 
