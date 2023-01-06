@@ -27,7 +27,7 @@ useState ([
    return (
      <div>
        <h1>E-commerce Apps</h1>
-       <span className='title-md>Marketplace in-net'></span>
+       <span className='title-md'>Marketplace in-net</span>
       <Home>
        <ProductList products={products} />
       </Home>
