@@ -1,10 +1,9 @@
 import React, from 'react';
 
-class Fee extends Component {
+class Fee extends React.Component {
      constructor() {
         super();
-this.state = ({
-{
+this.state = {
   sisaUang: 0,
   persentaseUang: 0, 
   pemasukanUang: 0,
@@ -25,7 +24,7 @@ this.state = ({
       category:'OUT'
     }
   ]
-);
+}
 }
  render() {
   return (
